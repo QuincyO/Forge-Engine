@@ -61,6 +61,7 @@
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Create</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>D:\CodingProjects\Forge Engine\Forge Engine\Forge\Source;D:\CodingProjects\Forge Engine\Forge Engine\BlankProject\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -79,6 +80,7 @@
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>D:\CodingProjects\Forge Engine\Forge Engine\Forge\Source;D:\CodingProjects\Forge Engine\Forge Engine\BlankProject\Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -103,6 +105,11 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="BlankProject.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Forge\Forge.vcxproj">
+      <Project>{b3bc9e28-0222-459a-bbf3-d959e032e3dc}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

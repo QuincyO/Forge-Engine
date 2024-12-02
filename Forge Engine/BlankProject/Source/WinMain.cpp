@@ -41,14 +41,14 @@ VOID MessageLoop();
 /*------------------------------------------------------------------*/
 
 #pragma region Operations
-int CALLBACK WinMain(HINSTANCE, HINSTANCE, LPSTR, INT)
-{
-	InitializeVariables();	
-	CreateWindowClass();
-	InitializeWindow();
-	MessageLoop();
-	return 0;
-}
+//int CALLBACK WinMain(HINSTANCE, HINSTANCE, LPSTR, INT)
+//{
+//	InitializeVariables();	
+//	CreateWindowClass();
+//	InitializeWindow();
+//	MessageLoop();
+//	return 0;
+//}
 
 LRESULT CALLBACK WindowProcess(HWND hWnd, UINT message, WPARAM wparam, LPARAM lparm)
 {

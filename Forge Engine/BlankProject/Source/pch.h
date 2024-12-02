@@ -2,9 +2,13 @@
 
 #include <Windows.h> // Include the Windows.h header file
 
+#include "../resource.h"
+
 // Define the entry point for the application
 
 #define MAX_NAME_STRING 256
 #define HInstance() GetModuleHandle(NULL)
 
-#include "../resource.h"
+
+
+#include "Forge.h"

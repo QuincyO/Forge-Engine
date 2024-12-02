@@ -1,6 +1,7 @@
 #pragma	once
+#include "Platform/WIN32/IApplication.h"
 
-class Application {
+class Application : public IApplication {
 	
 
 
