@@ -19,15 +19,36 @@
     <Filter Include="Source\pch">
       <UniqueIdentifier>{ac846865-ca2b-43d2-b44e-4908c4c55ca0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Private\Platform">
+      <UniqueIdentifier>{35537d35-b1a0-482c-813e-e44ed1c98c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Private\Platform\WIN32">
+      <UniqueIdentifier>{4135e453-9e42-4d5e-9bf3-da141f6f16f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public\Platform">
+      <UniqueIdentifier>{8521de1e-0f48-49f3-9ad1-94939bab817d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public\Platform\WIN32">
+      <UniqueIdentifier>{b482c967-a75b-4851-886c-d7ba33cbd649}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Forge.cpp">
       <Filter>Source\pch</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Platform\WIN32\IApplication.cpp">
+      <Filter>Source\Private\Platform\WIN32</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Forge.h">
       <Filter>Source\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\WIN32\IApplication.h">
+      <Filter>Source\Public\Platform\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\WIN32\WinEntry.h">
+      <Filter>Source\Public\Platform\WIN32</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
