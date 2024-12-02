@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlankProject", "BlankProject\BlankProject.vcxproj", "{87809FE0-298B-4CB1-8385-F1D36D30DA95}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Forge", "Forge\Forge.vcxproj", "{B3BC9E28-0222-459A-BBF3-D959E032E3DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{87809FE0-298B-4CB1-8385-F1D36D30DA95}.Debug|x64.Build.0 = Debug|x64
 		{87809FE0-298B-4CB1-8385-F1D36D30DA95}.Release|x64.ActiveCfg = Release|x64
 		{87809FE0-298B-4CB1-8385-F1D36D30DA95}.Release|x64.Build.0 = Release|x64
+		{B3BC9E28-0222-459A-BBF3-D959E032E3DC}.Debug|x64.ActiveCfg = Debug|x64
+		{B3BC9E28-0222-459A-BBF3-D959E032E3DC}.Debug|x64.Build.0 = Debug|x64
+		{B3BC9E28-0222-459A-BBF3-D959E032E3DC}.Release|x64.ActiveCfg = Release|x64
+		{B3BC9E28-0222-459A-BBF3-D959E032E3DC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

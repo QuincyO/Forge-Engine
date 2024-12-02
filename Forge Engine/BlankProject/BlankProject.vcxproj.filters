@@ -36,7 +36,7 @@
       <Filter>Source\pch</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
-      <Filter>Resources\Icons</Filter>
+      <Filter>Resources</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
