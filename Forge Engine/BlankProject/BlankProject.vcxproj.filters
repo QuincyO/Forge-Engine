@@ -22,16 +22,28 @@
     <Filter Include="Resources\Icons">
       <UniqueIdentifier>{75563b6a-8274-4ba4-8dd2-5ccf01771c17}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Private\Common">
+      <UniqueIdentifier>{ffa17318-c85e-43b0-854e-64e7ac6f0c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public\Common">
+      <UniqueIdentifier>{feeee700-0a92-422f-aaf2-9e8dbbc79f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public\Platform">
+      <UniqueIdentifier>{9214a6df-2523-423a-a665-41f6ea3c4281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Private\Platform">
+      <UniqueIdentifier>{7e2851de-ece6-4244-9e0b-a932c6ee1df5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\WinMain.cpp">
-      <Filter>Source\Private</Filter>
-    </ClCompile>
     <ClCompile Include="Source\pch.cpp">
       <Filter>Source\pch</Filter>
     </ClCompile>
     <ClCompile Include="Source\Application.cpp">
-      <Filter>Source\Private</Filter>
+      <Filter>Source\Private\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WinMain.cpp">
+      <Filter>Source\Private\Platform</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -42,7 +54,7 @@
       <Filter>Resources</Filter>
     </ClInclude>
     <ClInclude Include="Source\Application.h">
-      <Filter>Source\Public</Filter>
+      <Filter>Source\Public\Platform</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -12,3 +12,5 @@
 
 
 #include "Forge.h"
+
+#include "Common\Logger.h"

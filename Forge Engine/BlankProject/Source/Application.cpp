@@ -14,13 +14,27 @@ Application::~Application()
 
 }
 
+VOID Application::SetupPerGameSettings()
+{
+	PerGameSettings::SetGameName(IDS_PERGAMENAME);
+	PerGameSettings::SetShortName(IDS_SHORTNAME);
+	PerGameSettings::SetMainIcon(IDI_MAINICON);
+
+}
+
 VOID Application::Initialize()
 {
-	MessageBox(0, L"I have Loaded", 0, 0);
+
+	Logger::PrintDebugSeperator();
+	Logger::PrintLog(L"Application Starting...");
+	Logger::PrintLog(L"Game Name: %s", PerGameSettings::GameName());
+	Logger::PrintLog(L"Boot Time: %s", PerGameSettings::BootTime());
+	Logger::PrintDebugSeperator();
+
+	Logger::StartMTail();
 }
 
 VOID Application::Update()
 {
-	MessageBox(0, L"Loop", 0, 0);
 
 }
